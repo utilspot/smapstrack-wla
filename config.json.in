@@ -1,0 +1,6 @@
+{
+  "name": "@PROJECT_NAME@",
+  "version": "@PROJECT_VERSION@",
+  "baseUrl": "@SMAPSTRACK_BASE_URL@",
+  "endpoint": "@SMAPSTRACK_ENDPOINT@"
+}

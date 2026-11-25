@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Smaps Tracker">
+  <rect width="64" height="64" rx="12" fill="#0078d4" />
+  <!-- A memory chip: body and pins -->
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="16" y="14" width="32" height="36" rx="4" stroke-width="3.5" />
+    <path d="M9 22h7M9 32h7M9 42h7M48 22h7M48 32h7M48 42h7" stroke-width="3.5" />
+    <!-- with its memory tracked over time -->
+    <path d="M21.5 41l6-7 4.5 3.5 9-12" stroke-width="3.5" />
+  </g>
+  <circle cx="41" cy="25.5" r="3.5" fill="#ffffff" />
+</svg>

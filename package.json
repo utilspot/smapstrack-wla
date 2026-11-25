@@ -1,0 +1,32 @@
+{
+  "name": "smapstrack-wla",
+  "version": "1.0.0",
+  "description": "Live per-component memory tracking of remote processes",
+  "type": "module",
+  "homepage": "https://github.com/utilspot/smapstrack-wla",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/utilspot/smapstrack-wla.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "clean": "node tools/clean.mjs",
+    "bitmake": "npx bitmake build",
+    "server": "build/package/bin/smapstrack_server",
+    "emulation": "node server/server.js",
+    "start": "npm run build && npm run emulation"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^6.1.1",
+    "bitmake": "^0.0.1-develop.17",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.6.3",
+    "vite": "^8.3.0"
+  }
+}
